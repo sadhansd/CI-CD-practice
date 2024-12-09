@@ -7,6 +7,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.2
       - name: Super-Linter
-        uses: super-linter/super-linter@v7.2.0   
+        uses: github/super-linter@v7.2.0   
       - name: my-step
         run: echo "Hello world"
