@@ -1,0 +1,10 @@
+name: check-indendation
+on: push
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:         
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+      - name: my-step
+        run: echo "Hello world"
